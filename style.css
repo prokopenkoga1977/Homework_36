@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: grey;
+    padding: 16px;
+    align-items: flex-end;
+}
+
+.header__logo {
+    width: 64px;
+}
+
+.header__input {
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid white;
+    padding:4px 8px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
